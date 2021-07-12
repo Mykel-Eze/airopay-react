@@ -1,0 +1,39 @@
+/* AirbnbCereal Fonts */
+@font-face {
+    font-family: 'AirbnbCereal';
+    src: url('../fonts/airbnb-cereal/AirbnbCerealBook.ttf');
+}
+@font-face {
+    font-family: 'AirbnbCereal-medium';
+    src: url('../fonts/airbnb-cereal/AirbnbCerealMedium.ttf');
+}
+@font-face {
+    font-family: 'AirbnbCereal-bold';
+    src: url('../fonts/airbnb-cereal/AirbnbCerealBold.ttf');
+}
+@font-face {
+    font-family: 'AirbnbCereal-light';
+    src: url('../fonts/airbnb-cereal/AirbnbCerealLight.ttf');
+}
+@font-face {
+    font-family: 'AirbnbCereal-xbold';
+    src: url('../fonts/airbnb-cereal/AirbnbCerealExtraBold.ttf');
+}
+
+/* Neurial Grotesk Fonts */
+@font-face {
+    font-family: 'Neurial-Grotesk';
+    src: url('../fonts/Neurial-Grotesk/Neurial-Grotesk-Regular.ttf');
+}
+@font-face {
+    font-family: 'Neurial-Grotesk-medium';
+    src: url('../fonts/Neurial-Grotesk/Neurial-Grotesk-Medium.ttf');
+}
+@font-face {
+    font-family: 'Neurial-Grotesk-bold';
+    src: url('../fonts/Neurial-Grotesk/Neurial-Grotesk-Bold.ttf');
+}
+@font-face {
+    font-family: 'Neurial-Grotesk-light';
+    src: url('../fonts/Neurial-Grotesk/Neurial-Grotesk-Light.ttf');
+}

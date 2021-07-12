@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#1E2F67" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Bank on the Go &#8212; Welcome to your Bankless World"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="author" content="Airopay">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +25,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Airopay Web</title>
+
+    <style>
+      div#scrollHorizontalWrapper {
+        transition: all 1s;
+      }
+    
+      div#scrollHorizontalWrapper.shw-top {
+        top: 20% !important;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +50,45 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/plugins/debug.addIndicators.min.js"></script>
+
+    <script>
+      $(function () { // wait for document ready
+
+          var controller = new window.ScrollMagic.Controller();
+
+          var horizontalSlide = new window.TimelineMax()
+            // animate panels
+            .to("#scrollHorizontal", 1, { x: "-100%" })
+            .to("#scrollHorizontal", 1, { x: "-150%" })
+            .to("#scrollHorizontal", 1, { x: "-202%" })
+          // .to("#scrollHorizontal", 1, { x: "-400%" })
+
+
+          // create scene to pin and link animation
+          new window.ScrollMagic.Scene({
+            triggerElement: "#scrollHorizontalWrapper",
+            triggerHook: "onLeave",
+            duration: "200%"
+          })
+            .setPin("#scrollHorizontalWrapper")
+            .setTween(horizontalSlide)
+            .addTo(controller);
+
+        });
+        $(document).scroll(function () {
+          if ($('div#scrollHorizontalWrapper').css('position') === 'fixed') {
+            $('div#scrollHorizontalWrapper').addClass("shw-top");
+          } else {
+            $('div#scrollHorizontalWrapper').removeClass("shw-top");
+          }
+        });
+
+    </script>
   </body>
 </html>

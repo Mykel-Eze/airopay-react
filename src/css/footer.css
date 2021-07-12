@@ -1,0 +1,194 @@
+/* Footer Section */
+footer{
+    background-color: #F7F9FC;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: var(--pry-color);
+    font-size: 16px;
+    font-family: var(--font-light);
+}
+footer .row{
+    margin-bottom: 0;
+}
+.footer-logo {
+    margin-top: 15px;
+}
+.footer-logo img{
+    width: 50%;
+}
+.social-icons a img {
+    margin: 5px 3px;
+    width: 25px;
+}
+.social-icons a:first-child img {
+    margin-left: 0;
+}
+footer a {
+    color: var(--pry-color);
+}
+footer a:hover {
+    color: var(--sec-color);
+    font-weight: 600;
+}
+footer a.sec-color {
+    color: var(--sec-color);
+}
+footer a.sec-color:hover {
+    color: var(--pry-color);
+}
+.f-links-wrapper {
+    display: grid;
+    grid-template-columns: calc(20% - 10px) calc(20% - 10px) calc(20% - 10px) calc(20% - 10px) calc(20% - 10px);
+    grid-gap: 12px;
+    margin: 30px 0 20px;
+}
+.footer-links-li {
+    margin-top: 0;
+    font-size: 12px;
+    padding: 2px 0;
+    margin-top: 10px;
+}
+.footer-links-li a {
+    font-size: 14px;
+    font-family: var(--font-light);
+}
+.footer-links-li li {
+    padding: 5px 0;
+}
+.footer-title {
+    font-family: var(--font-bold);
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--pry-color);
+}
+.copyright-div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 15px;
+}
+.footer-about-txt {
+    line-height: 22px;
+}
+a.social-link {
+    margin-right: 8%;
+}
+a.social-link:last-child {
+    margin-right: 0;
+}
+a.social-link img {
+    width: auto;
+}
+.footer-hr-div {
+    margin: 5px 0;
+}
+.cookies-notice {
+    font-size: 14px;
+    margin: 12px 0 5px;
+}
+.cookies-notice a:hover {
+    text-decoration: underline;
+}
+input#phone-number {
+    background: white;
+    border: 1px solid rgba(65, 87, 159, 0.334544);
+    border-radius: 8px 0 0 8px;
+    height: 50px;
+    box-shadow: none;
+    padding: 0 5px;
+}
+footer button.btn.pry-btn {
+    flex-grow: 1;
+    width: 200px;
+    padding: 0;
+    height: 52px;
+    border: 1px solid var(--pry-color);
+    border-radius: 0 8px 8px 0;
+}
+.footer-hr-div hr {
+    height: 0.5px;
+    border: none;
+    background: #7080A0;
+    opacity: 0.5;
+}
+
+@media (max-width: 992px) {
+    h1.signup-title {
+        font-size: 3rem;
+    }
+    .f-links-wrapper {
+        grid-template-columns: calc(33.3% - 10px) calc(33.3% - 10px) calc(33.3% - 10px);
+    }
+    .copyright-div {
+        margin-top: 20px;
+    }
+    .f-links-wrapper .ddf:last-child {
+        grid-column-end: 4;
+        grid-column-start: 2;
+    }
+    ul.social-footer-links {
+        display: grid;
+        grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+        grid-gap: 10px;
+    }
+    ul.social-footer-links li:first-child {
+        grid-column-end: 3;
+        grid-column-start: 1;
+    }
+    footer button.app-store {
+        width: 100%;
+    }
+}
+@media (min-width: 601px) {
+    .flex-m-l-only {
+        display: flex;
+    }
+}
+@media(max-width: 600px){
+    .footer-logo img {
+        width: 45%;
+    }
+    .footer-links-li {
+        margin-top: 10px;
+    }
+    p.footer-about-txt {
+        text-align: justify;
+    }
+    
+    h1.signup-title {
+        font-size: 2.8rem;
+    }
+    .f-links-wrapper {
+        grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+    }
+    .f-links-wrapper .ddf:last-child {
+        grid-column-end: 3;
+        grid-column-start: 1;
+    }
+    a.social-link {
+        margin-right: 5%;
+    }
+    /* footer button.app-store {
+        width: 70%;
+    } */
+    ul.social-footer-links {
+        display: grid;
+        grid-template-columns: calc(50% - 8px) calc(50% - 8px);
+        grid-gap: 10px;
+    }
+    ul.social-footer-links li:first-child {
+        grid-column-end: 3;
+        grid-column-start: 1;
+        margin-bottom: 20px;
+    }
+
+    .copyright-div {
+        flex-direction: column-reverse;
+    }
+    .copyright-div p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+/* end of Footer Section */
