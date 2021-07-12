@@ -1,4 +1,3 @@
-import $ from 'jquery'
 
 const HomeContents = () => {
     return ( 
@@ -8,7 +7,7 @@ const HomeContents = () => {
                 <div className="row rel full-height">
                     <div className="container">
                         <div className="col s12 l6" id="home-txt-side">
-                            <div className="home-minor-title pry-color type-effect">Bank on the Go &#8212;</div>
+                            <div className="home-minor-title pry-color type-effect">Bank on the Go &/8212;</div>
                             <h1 className="home-title type-effect">Welcome to your Bankless World </h1>
                             <p className="home-desc-txt pry-color hidden-xs-sm* type-effect">
                                 Banking transactions from your phone at super fast speed in 
@@ -91,11 +90,11 @@ const HomeContents = () => {
                                     <img src={require("../images/step-1.png").default} alt="step icon" />
                                     <h5 className="bold-txt">Download & Register</h5>
                                     <p>
-                                        Download the app from <a href="#">AppStore</a> or <a href="#">Google Play</a>. 
+                                        Download the app from <a href="/">AppStore</a> or <a href="/">Google Play</a>. 
                                         Register to get your Account Number instantly.
                                     </p>
                                     <div className="gs-link-div">
-                                        <a href="#">Get Started <span className="next-arr">&#10095;</span></a>
+                                        <a href="/">Get Started <span className="next-arr">&/10095;</span></a>
                                     </div>
                                 </div>
                                 <img src={require("../images/step-pattern-1.svg").default} alt="patterns" className="step-pattern" />
@@ -108,7 +107,7 @@ const HomeContents = () => {
                                         Send money into your Airopay account via Bank Transferes, USSD or Card Debit.
                                     </p>
                                     <div className="gs-link-div">
-                                        <a href="#">Get Started <span className="next-arr">&#10095;</span></a>
+                                        <a href="/">Get Started <span className="next-arr">&/10095;</span></a>
                                     </div>
                                 </div>
                                 <img src={require("../images/step-pattern-2.svg").default} alt="patterns" className="step-pattern" />
@@ -121,7 +120,7 @@ const HomeContents = () => {
                                         Pay for services in a secure, fast and easy manner.
                                     </p>
                                     <div className="gs-link-div">
-                                        <a href="#">Get Started <span className="next-arr">&#10095;</span></a>
+                                        <a href="/">Get Started <span className="next-arr">&/10095;</span></a>
                                     </div>
                                 </div>
                                 <img src={require("../images/step-pattern-3.svg").default} alt="patterns" className="step-pattern" />
@@ -153,7 +152,7 @@ const HomeContents = () => {
                                             notification and reminder on reoccuring bills like your Dstv subscriptions etc.
                                         </p>
                                         <div className="gs-link-div">
-                                            <a href="#">Learn More <span className="next-arr">&#187;</span></a>
+                                            <a href="/">Learn More <span className="next-arr">&/187;</span></a>
                                         </div>
                                     </div>
                                     <img src={require("../images/step-pattern-1.svg").default} alt="patterns" className="step-pattern" />
@@ -174,7 +173,7 @@ const HomeContents = () => {
                                             menu and completing your payment(s) when convinced about your order(s)
                                         </p>
                                         <div className="gs-link-div">
-                                            <a href="#">Learn More <span className="next-arr">&#187;</span></a>
+                                            <a href="/">Learn More <span className="next-arr">&/187;</span></a>
                                         </div>
                                     </div>
                                     <img src={require("../images/step-pattern-3.svg").default} alt="patterns" className="step-pattern" />
@@ -195,7 +194,7 @@ const HomeContents = () => {
                                             from agents to withdraw your cash. We aim to make banking easy for you.
                                         </p>
                                         <div className="gs-link-div">
-                                            <a href="#">Learn More <span className="next-arr">&#187;</span></a>
+                                            <a href="/">Learn More <span className="next-arr">&/187;</span></a>
                                         </div>
                                     </div>
                                     <img src={require("../images/step-pattern-1.svg").default} alt="patterns" className="step-pattern" />
@@ -213,13 +212,13 @@ const HomeContents = () => {
                         <div className="col s12">
                             <ul className="tabs">
                                 <li className="tab col s4">
-                                    <a className="active" href="#automated">Automated</a>
+                                    <a className="active" href="/automated">Automated</a>
                                 </li>
                                 <li className="tab col s4">
-                                    <a href="#contactless">Contactless</a>
+                                    <a href="/contactless">Contactless</a>
                                 </li>
                                 <li className="tab col s4">
-                                    <a href="#remote">Remote</a>
+                                    <a href="/remote">Remote</a>
                                 </li>
                             </ul>
                         </div>
@@ -237,7 +236,7 @@ const HomeContents = () => {
                                             notification and reminder on reoccuring bills like your Dstv subscriptions etc.
                                         </p>
                                         <div className="gs-link-div">
-                                            <a href="#">Learn More <span className="next-arr">&#187;</span></a>
+                                            <a href="/">Learn More <span className="next-arr">&/187;</span></a>
                                         </div>
                                     </div>
                                     <img src={require("../images/step-pattern-1.svg").default} alt="patterns" className="step-pattern" />
@@ -259,7 +258,7 @@ const HomeContents = () => {
                                             menu and completing your payment(s) when convinced about your order(s)
                                         </p>
                                         <div className="gs-link-div">
-                                            <a href="#">Learn More <span className="next-arr">&#187;</span></a>
+                                            <a href="/">Learn More <span className="next-arr">&/187;</span></a>
                                         </div>
                                     </div>
                                     <img src={require("../images/step-pattern-3.svg").default} alt="patterns" className="step-pattern" />
@@ -281,7 +280,7 @@ const HomeContents = () => {
                                             from agents to withdraw your cash. We aim to make banking easy for you.
                                         </p>
                                         <div className="gs-link-div">
-                                            <a href="#">Learn More <span className="next-arr">&#187;</span></a>
+                                            <a href="/">Learn More <span className="next-arr">&/187;</span></a>
                                         </div>
                                     </div>
                                     <img src={require("../images/step-pattern-1.svg").default} alt="patterns" className="step-pattern" />

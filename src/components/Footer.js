@@ -30,22 +30,22 @@ const Footer = () => {
                             <h5 className="footer-title">Company</h5>
                             <ul className="footer-links-li">
                                 <li>
-                                    <a href="#" className="">About Us</a>
+                                    <a href="/" className="">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="">Terms</a>
+                                    <a href="/" className="">Terms</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="">Privacy Policiy</a>
+                                    <a href="/" className="">Privacy Policiy</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="">Loan Terms</a>
+                                    <a href="/" className="">Loan Terms</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="">Savings Terms</a>
+                                    <a href="/" className="">Savings Terms</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="">Disclaimers</a>
+                                    <a href="/" className="">Disclaimers</a>
                                 </li>
                             </ul>
                         </div>
@@ -53,25 +53,25 @@ const Footer = () => {
                             <h5 className="footer-title">The App</h5>
                             <ul className="footer-links-li">
                                 <li>
-                                    <a href="#">All Features</a>
+                                    <a href="/">All Features</a>
                                 </li>
                                 <li>
-                                    <a href="#">Download for iOS</a>
+                                    <a href="/">Download for iOS</a>
                                 </li>
                                 <li>
-                                    <a href="#">Download for Andriod</a>
+                                    <a href="/">Download for Andriod</a>
                                 </li>
                                 <li>
-                                    <a href="#">AiroMoni</a>
+                                    <a href="/">AiroMoni</a>
                                 </li>
                                 <li>
-                                    <a href="#">AiroBiz</a>
+                                    <a href="/">AiroBiz</a>
                                 </li>
                                 <li>
-                                    <a href="#">Loan Rates</a>
+                                    <a href="/">Loan Rates</a>
                                 </li>
                                 <li>
-                                    <a href="#">FAQs</a>
+                                    <a href="/">FAQs</a>
                                 </li>
                             </ul>
                         </div>
@@ -79,19 +79,19 @@ const Footer = () => {
                             <h5 className="footer-title">Join Us</h5>
                             <ul className="footer-links-li">
                                 <li>
-                                    <a href="#">Virtual Account Officers</a>
+                                    <a href="/">Virtual Account Officers</a>
                                 </li>
                                 <li>
-                                    <a href="#">Become an Airopreneur</a>
+                                    <a href="/">Become an Airopreneur</a>
                                 </li>
                                 <li>
-                                    <a href="#">Become a Marchant</a>
+                                    <a href="/">Become a Marchant</a>
                                 </li>
                                 <li>
-                                    <a href="#">Become an Agent</a>
+                                    <a href="/">Become an Agent</a>
                                 </li>
                                 <li>
-                                    <a href="#">Join Our Workforce</a>
+                                    <a href="/">Join Our Workforce</a>
                                 </li>
                             </ul>
                         </div>
@@ -146,10 +146,10 @@ const Footer = () => {
                                 Central Bank of Nigeria. “Airopay” and “Bankless World” are trademarks of Airopay Ltd Lekki, Lagos. Nigeria.
                             </div>
                             <div>
-                                This website uses <a href="#" target="_blank" rel="noopener noreferrer"><b className="pry-color">Cookies ↗</b></a> We use cookies to personalise content and ads, to provide social media features and to
+                                This website uses <a href="/" target="_blank" rel="noopener noreferrer"><b className="pry-color">Cookies ↗</b></a> We use cookies to personalise content and ads, to provide social media features and to
                                 analyse our traffic. We also share information about your use of our site with our social media, advertising and
                                 analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from
-                                your use of their services. Check <a href="#" target="_blank" rel="noopener noreferrer"><b className="pry-color">Privacy Policy ↗</b></a>
+                                your use of their services. Check <a href="/" target="_blank" rel="noopener noreferrer"><b className="pry-color">Privacy Policy ↗</b></a>
                             </div>
                         </div>
                     </div>
